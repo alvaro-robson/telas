@@ -1,0 +1,55 @@
+
+*{
+	padding: 0;
+	margin:0;
+}
+
+body{
+	
+	background-color: #81BEF7;
+	padding: 3%;
+}
+
+.centro{
+	background-color: #E6E6E6;
+	width: 100%;
+	padding: 30px 0; /*alvaro*/
+}
+
+
+
+
+
+
+
+/*tela de celular*/
+@media(max-width: 800px){
+	
+	
+.centro{
+	float: left;
+	background-color: #E6E6E6;
+	width: 90%;
+	height: 85vh; /*vh vem de viewport height: altura da janela/tela*/
+	margin-left: 5%;
+}
+
+
+@media(min-height: 616px){
+	.centro{
+		height: 85vh;
+	}
+}
+
+@media(min-height: 668px){
+	.centro{
+		height: 85vh;
+	}	
+}
+	
+@media(min-width: 801px){
+	.centro{
+		background-color: black;
+	}	
+}
+}

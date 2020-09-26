@@ -1,0 +1,73 @@
+*{
+	padding: 0;
+	margin:0;
+}
+
+body{
+	
+	background-color: #81BEF7;
+	padding: 3%;
+	height: 100%;
+}
+
+.centro{
+	background-color: #E6E6E6;
+	width: 100%;
+	padding: 15% 20%; /*alvaro*/
+	box-sizing: border-box;
+	
+}
+
+.img{
+	margin: auto;
+  border-style: solid;
+	border-width: 2px;
+  width: 90%;
+  height: 30vh;
+  box-sizing: border-box;
+  padding: 1% 1%;
+}
+
+.tubo{
+	margin: 2% 1% 1% 2.5%;
+  float: left;
+	width: 95%;
+	height: 95%;
+}
+.txtMat, .txtDesc,.Quant{
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+	border-bottom: 2px solid $gray;
+	outline: 0;
+	font-size: 1.5rem;
+	color: $white;
+	padding: 7px 0;
+	background: transparent;
+	border-style: groove;
+	border-right: none;
+	border-top: none;
+	border-left: none;
+	border-color: #A4A4A4;
+	cursor: auto;
+}
+
+.btn{
+	width:40%;
+	height: 50px;
+	background-color: #A4A4A4; 
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+	margin: 10% auto;
+
+}
+
+.btn a{
+	text-decoration: none;
+	color: #E6E6E6;
+	text-align: center;
+}
